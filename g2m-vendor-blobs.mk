@@ -191,7 +191,6 @@ vendor/lge/g2m/proprietary/lib/hw/sensors.msm8930.so:system/lib/hw/sensors.msm89
     vendor/lge/g2m/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/g2m/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/g2m/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
-    vendor/lge/g2m/proprietary/vendor/lib/hw/power.msm8226.so:system/vendor/lib/hw/power.msm8226.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/g2m/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so \
@@ -269,10 +268,10 @@ vendor/lge/g2m/proprietary/lib/hw/sensors.msm8930.so:system/lib/hw/sensors.msm89
     vendor/lge/g2m/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/lge/g2m/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/g2m/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-vendor/lge/g2m/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-vendor/lge/g2m/proprietary/lib/libdivxdrm_jni.so:system/lib/libdivxdrm_jni.so \
-  vendor/lge/g2m/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-  vendor/lge/g2m/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/lge/g2m/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/lge/g2m/proprietary/lib/libdivxdrm_jni.so:system/lib/libdivxdrm_jni.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/lge/g2m/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/lge/g2m/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lge/g2m/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2m/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
@@ -297,18 +296,19 @@ vendor/lge/g2m/proprietary/lib/libdivxdrm_jni.so:system/lib/libdivxdrm_jni.so \
     vendor/lge/g2m/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/g2m/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/lge/g2m/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-vendor/lge/g2m/proprietary/vendor/firmware/E2A47P1_2_04.fw:system/vendor/firmware/E2A47P1_2_04.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/E2A47P2_2_04.fw:system/vendor/firmware/E2A47P2_2_04.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/E4A47P1_2_04.fw:system/vendor/firmware/E4A47P1_2_04.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/E4A47P2_2_04.fw:system/vendor/firmware/E4A47P2_2_04.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/E4A47P2_2_05.fw:system/vendor/firmware/E4A47P2_2_05.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/E7_0210.fw:system/vendor/firmware/E7_0210.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/E7_0214.fw:system/vendor/firmware/E7_0214.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/Jaguar01.fw:system/vendor/firmware/Jaguar01.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/Jaguar02.fw:system/vendor/firmware/Jaguar02.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/S0A47P1_2_05.fw:system/vendor/firmware/S0A47P1_2_05.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/S0A47P1_2_06.fw:system/vendor/firmware/S0A47P1_2_06.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/S0A47P1_2_07.fw:system/vendor/firmware/S0A47P1_2_07.fw \
-vendor/lge/g2m/proprietary/vendor/firmware/S2A47P1_2_05.fw:system/vendor/firmware/S2A47P1_2_05.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/E2A47P1_2_04.fw:system/vendor/firmware/E2A47P1_2_04.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/E2A47P2_2_04.fw:system/vendor/firmware/E2A47P2_2_04.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/E4A47P1_2_04.fw:system/vendor/firmware/E4A47P1_2_04.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/E4A47P2_2_04.fw:system/vendor/firmware/E4A47P2_2_04.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/E4A47P2_2_05.fw:system/vendor/firmware/E4A47P2_2_05.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/E7_0210.fw:system/vendor/firmware/E7_0210.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/E7_0214.fw:system/vendor/firmware/E7_0214.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/Jaguar01.fw:system/vendor/firmware/Jaguar01.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/Jaguar02.fw:system/vendor/firmware/Jaguar02.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/S0A47P1_2_05.fw:system/vendor/firmware/S0A47P1_2_05.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/S0A47P1_2_06.fw:system/vendor/firmware/S0A47P1_2_06.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/S0A47P1_2_07.fw:system/vendor/firmware/S0A47P1_2_07.fw \
+    vendor/lge/g2m/proprietary/vendor/firmware/S2A47P1_2_05.fw:system/vendor/firmware/S2A47P1_2_05.fw \
+    vendor/lge/g2m/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
 
 
